@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorHyeon1">#14032BF4</color>
+    <color name="colorHyeon2">#FF0000</color>
+    <color name="colorHyeon3">#650038FF</color>
+    <color name="colorHyeon4">#FD1E40E9</color>
+
+</resources>

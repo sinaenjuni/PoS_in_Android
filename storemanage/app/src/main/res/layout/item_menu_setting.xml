@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/item_menu_setting_imageview"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_margin="10dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/item_menu_setting_textview_name"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="메뉴 이름"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/item_menu_setting_textview_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="가격"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/item_menu_setting_textview_oprion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="옵션"/>
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/item_menu_setting_button_delete"
+            android:text="삭제"
+            android:layout_width="match_parent"
+            android:textSize="30dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/baseline_people_black_18dp"
+        android:title="Home"/>
+
+     <item
+        android:id="@+id/action_reservation"
+        android:icon="@drawable/baseline_chat_black_18dp"
+        android:title="Reservation"/>
+
+     <item
+        android:id="@+id/action_waiting"
+        android:icon="@drawable/baseline_account_circle_black_18dp"
+        android:title="Waiting"/>
+
+    <item
+        android:id="@+id/action_community"
+        android:icon="@drawable/baseline_account_circle_black_18dp"
+        android:title="Analysis"/>
+
+    <item
+        android:id="@+id/action_setting"
+        android:icon="@drawable/baseline_account_circle_black_18dp"
+        android:title="Setting"/>
+
+
+</menu>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@color/colorHyeon4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="이름"/>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="전화번호"/>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="시간"/>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="메뉴"/>
+
+        <TextView
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="인원"/>
+
+        <TextView
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""/>
+        <TextView
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/reservation_fragment_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

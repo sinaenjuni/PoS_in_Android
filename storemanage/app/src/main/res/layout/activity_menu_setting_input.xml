@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".storeMain.settings.MenuSettingInput">
+
+    <ImageView
+        android:id="@+id/menusetting_input_dialog_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="50dp"
+        android:src="@drawable/signup_profile_icon1" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:singleLine="true"
+            android:id="@+id/menusetting_input_dialog_name"
+            android:hint="메뉴명"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:singleLine="true"
+            android:id="@+id/menusetting_input_dialog_price"
+            android:hint="가격"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/menusetting_input_dialog_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="설명"
+            android:inputType="textPassword"
+            android:singleLine="true" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:text="확인"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/menusetting_input_dialog_button_ok"/>
+    <Button
+        android:text="취소"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/menusetting_input_dialog_button_cancle"/>
+
+
+</LinearLayout>
